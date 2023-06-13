@@ -1,0 +1,164 @@
+body {
+    width: 70%;
+    margin: 0 auto;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/005/631/672/non_2x/cloud-computing-operating-system-concept-polygon-cloud-and-data-transmission-on-blue-background-wireless-file-upload-technology-download-secure-data-protection-system-business-and-technology-vector.jpg); 
+    color: #f5f6f7;
+    font-family: Tahoma, Arial;
+    padding: 4px 0;
+  }
+  .encabezado {
+    background-color: hsla(0, 0%, 0%, 0.904);
+    color: #1900ff;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+}
+.logoinicio{
+  width: 50px;
+  
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 60px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+nav a:hover {
+  color: rgb(165, 42, 144);
+}
+
+
+.titulo{
+    font-size: 100px;
+    color:rgb(165, 42, 144);
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10%;
+}
+
+.titulos{
+    margin-left: 3px;
+    color: white;
+    margin-bottom: 2%;
+    border: solid;
+    border-radius: 5% 150px;
+    border-color: rgb(148, 2, 136);
+    background-color: hsla(210, 14%, 3%, 0.603);
+    padding-left: 20px;
+    margin-right: 130px;
+    
+}
+
+p {
+    text-align: center;
+}   
+.dia1{
+    text-align: center;
+    background-color: rgba(3, 198, 247, 0.39);
+    width: 400px;
+    height: 40px;
+    padding: 0%;
+    margin: 20px;
+}
+.dia2{
+    text-align: center;
+    background-color: rgba(3, 19, 247, 0.39);
+    width: 400px;
+    height: 40px;
+    padding: 0%;
+    margin: 20px;
+}
+.dia3{
+    text-align: center;
+    background-color: rgba(219, 3, 247, 0.39);
+    width: 400px;
+    height: 40px;
+    padding: 0%;
+    margin: 20px;
+}
+
+.dia4{
+  text-align: center;
+  background-color: rgba(3, 149, 247, 0.979);
+  width: 400px;
+  height: 40px;
+  padding: 0%;
+  margin: 20px;
+}
+
+.dia5 {
+  text-align: center;
+  background-color: dimgray;
+  width: 400px;
+  height: 40px;
+  padding: 0%;
+  margin: 20px;
+}
+
+.dia6{
+  text-align: center;
+  background-color: rgba(3, 198, 247, 0.39);
+  width: 400px;
+  height: 40px;
+  padding: 0%;
+  margin: 20px;
+}
+.dia7{
+  text-align: center;
+  background-color: rgba(3, 19, 247, 0.39);
+  width: 400px;
+  height: 40px;
+  padding: 0%;
+  margin: 20px;
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding: 2px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+.column {
+    flex: 1;
+    padding: 10px;
+  }
+  
+@media (max-width: 1650px) {
+  .column {
+      flex: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+      background-color: rgba(219, 3, 247, 0.39);
+  }
+}
+
+@media (max-width: 767px) {
+  .nav {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header {
+      width: 1200px;
+  }
+}
